@@ -2,7 +2,7 @@ import { router } from '@kit.ArkUI';
 
 @Entry
 @Component
-struct Login {
+struct LoginPage {
   @State phoneOrEmail: string = ''
   @State password: string = ''
   @State rememberMe: boolean = false

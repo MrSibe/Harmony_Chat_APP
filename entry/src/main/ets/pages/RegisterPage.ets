@@ -2,7 +2,7 @@ import { router } from '@kit.ArkUI';
 
 @Entry
 @Component
-struct Register {
+struct RegisterPage {
   @State nickname: string = ''
   @State username: string = ''
   @State password: string = ''

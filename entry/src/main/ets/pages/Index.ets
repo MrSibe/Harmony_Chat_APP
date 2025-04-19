@@ -26,7 +26,7 @@ struct Index {
         .fontColor('#FFFFFF')
         .margin({ bottom: 20 })
         .onClick(() => {
-          router.pushUrl({ url: 'pages/Login' }, router.RouterMode.Standard, (err) => {
+          router.pushUrl({ url: 'pages/LoginPage' }, router.RouterMode.Standard, (err) => {
             if (err) {
               console.error(`Invoke pushUrl failed, code is ${err.code}, message is ${err.message}`);
               return;
@@ -44,7 +44,7 @@ struct Index {
         .border({ width: 1, color: '#007DFF' })
         .margin({ bottom: 20 })
         .onClick(() => {
-          router.pushUrl({ url: 'pages/Register' }, router.RouterMode.Standard, (err) => {
+          router.pushUrl({ url: 'pages/RegisterPage' }, router.RouterMode.Standard, (err) => {
             if (err) {
               console.error(`Invoke pushUrl failed, code is ${err.code}, message is ${err.message}`);
               return;
